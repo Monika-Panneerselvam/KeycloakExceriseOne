@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://localhost:8082/realms/admin
+
+logging:
+  level:
+    org.springframework.security: DEBUG

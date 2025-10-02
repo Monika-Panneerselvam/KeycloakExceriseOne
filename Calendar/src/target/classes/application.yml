@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://<KEYCLOAK_HOST>/realms/<REALM_NAME>
+
+logging:
+  level:
+    org.springframework.security: DEBUG
