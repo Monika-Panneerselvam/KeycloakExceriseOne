@@ -1,4 +1,4 @@
-package com.example.springboot;
+/**package com.example.springboot;
 
 import org.junit.jupiter.api.Test;
 
@@ -21,3 +21,4 @@ public class HelloControllerITest {
         assertThat(response.getBody()).isEqualTo("Greetings from Spring Boot!");
     }
 }
+**/

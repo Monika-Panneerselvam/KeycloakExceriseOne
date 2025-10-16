@@ -6,7 +6,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: https://localhost:8082/realms/admin
+          issuer-uri: http://localhost:8082/realms/myrealm
 
 logging:
   level:

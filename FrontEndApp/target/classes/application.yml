@@ -8,17 +8,16 @@ spring:
         registration:
           keycloak:
             client-id: frontend-app
-            client-secret: frontend-secret   # if confidential
+            client-secret: EmpEfOIeT1XeSiQIONPHNpciqNnJP7Cu
             authorization-grant-type: authorization_code
-            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+            redirect-uri: "{baseUrl}/login/oauth2/code/keycloak"
             scope:
               - openid
               - profile
               - email
-              - roles
         provider:
           keycloak:
-            issuer-uri: https://localhost:8082/realms/admin
+            issuer-uri: http://localhost:8082/realms/myrealm
 
 # URL of the calendar service we will call
 calendar:

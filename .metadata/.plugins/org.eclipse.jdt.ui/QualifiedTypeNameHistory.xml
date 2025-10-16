@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.security.oauth2.client.registration.ClientRegistrationRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.security.oauth2.client.web.OAuth2AuthorizedClientRepository"/>
+</qualifiedTypeNameHistroy>
